@@ -9,7 +9,7 @@ public class Var01 {
 			int a=10, b=20, c=30; //정수형 변수
 			char d='a',e; //문자 변수
 			String f="kim", g; //문자열 변수
-			float h=3.14f, i; //실수형 변수
+			float h=3.14f, i=0.25f; //실수형 변수
 			
 			//변수명 규칙
 			
