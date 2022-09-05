@@ -1,0 +1,14 @@
+package sec1;
+// 프로그램(Operation)의 모든 명령은 Op-code 와 Operand로 이루어짐
+// a = a + b;
+//+ : 연산(명령) -> Op-code
+//a, b -> Operand (주소) a라는 기억장소 ... 제2주소 명령어형식
+public class Oper1 {
+
+	public static void main(String[] args) {
+		int a=20, b=30;
+		System.out.println(a); //제1주소 명령어형식
+
+	}
+
+}
