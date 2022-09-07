@@ -22,13 +22,12 @@ public class Oper5 {
 		//System.out.println("k" / 0); //문자열 "k"일때는 오류, 'k' 문자일때는 O
 		//System.out.println('k' / 4);
 		//System.out.println(a % 0);	// Infinity (불능)
-		try { //예외처리
+		try {
 			int k = 20;
-			System.out.println(k / 0);				//실행해야할 구문
+			//실행해야할 구문
 			System.out.println(k / 0);
 		} catch(ArithmeticException e1){
-			System.out.println("산술연산에 오류가 존재함"); 	//실행할 구문이 오류 발생시 처리해야할 내용
-			//e1.printStackTrace();
+			System.out.println("산술연산에 오류가 존재함"); 	//실행할 구문이 오류 발생시 처리 
 			 
 		}
 	}

@@ -12,26 +12,19 @@ public class Oper4 {
 		//< 작다(미안=전)
 		//<=작거나 같다(이하==이전)
 		System.out.println("a==b => "+(a==b)); //a와 b가 같은가? F
-		System.out.println("a!=b => "+(a!=b)); //T
+		System.out.println("a!=b =>"); //T
 		System.out.println("a>b => "+(a>b)); //T
 		System.out.println("a>=b => "+(a>b)); //T
-		System.out.println("a<b => "+(a<b)); //F
-		System.out.println("a<=b => "+(a<=b)); //F
-		System.out.println("a가 문자열이 맞나? => "+a instanceof String); //T 
-		//논리 연산자(이항 연산)
-		//	입력1		입력2		a>b && c>d		a>b || c>d
-		//	 0		 0			0				0
-		//	 0		 1			0				1
-		//	 1		 0			0				1
-		//	 1		 1			1				1
+		System.out.println("a가 문자열이 맞나? => "+a instanceof String); // 
 		
-		//논리 연산자(단항 연산)
-		//입력		!(a>b)
-		//0				1
-		//1				0
-		System.out.println("a>b && c>d => "+(a>b && c<d));	//F
-		System.out.println("a<b || c<d => "+(a>b || c<d));	//T
-		System.out.println("!(a>b) =>" +(!(a>b)));	//F
+		//T
+		//F
+		//F
+
+		//논리 연산자
+		System.out.println("a>b && c>d => "+(a>b && c<d));
+		System.out.println("a<b || c<d => "+(a>b || c<d));
+		System.out.println("!(a>b) =>" +(!(a>b)));
 		
 		//삼항=> 조건 ? 참일때식 : 거짓일때식
 		System.out.println(a>=b ? "크거나 같다 " : "작다");

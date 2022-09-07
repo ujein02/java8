@@ -24,7 +24,7 @@ public class Oper3 {
 		System.out.println(n); // 전위,후위연산 방식에 따라 값이 상이
 		
 		//대입연산자
-		int p=20, r=30; 
+		int p=20, r=30, 
 		p+=2;	//p++, ++p 와 동일, 만약 p=p+2라면 같지 않음. 다만 이는 p+=2, 22
 		r-=2;	//r=r-2 ->28
 		System.out.println(p);
