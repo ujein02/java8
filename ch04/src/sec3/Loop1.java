@@ -18,6 +18,7 @@ public class Loop1 {
 		for(int a=0;a<10;a++){
 			
 			System.out.println(a+"번째 사람의 점수 : "+data[a]);
+			
 			tot=tot+data[a];	//누산
 		}	
 		double avg = tot / data.length;
