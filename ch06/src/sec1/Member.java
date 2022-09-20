@@ -1,11 +1,10 @@
 package sec1;
-
-
+//s2 패키지의 Week 열거형을 사용하기 위해  불러오는 경우 => 이름바꾸기 f2버튼
+import s2.Week;
 
 //public : 현재 프로젝트 내에서 다른 패키지에도 접근 가능
 //default : 접근 제한자를 생략했을 경우이며, 같은 패키지 내에서 접근 가능
 //private : 현재 클래스 내에서만 접근 가틍
-
 
 public class Member {
 	private String id; 				//클래스의 멤버 필드(Field)
