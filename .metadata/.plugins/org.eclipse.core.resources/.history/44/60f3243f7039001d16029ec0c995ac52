@@ -1,0 +1,29 @@
+package sec2;
+
+public class Student {
+	String name;
+	int kor;
+	int eng;
+	int mat;
+	int clacTot = 0;
+	int calcAvg = 0;
+	String calcHak;
+	String calcRes;
+	
+	
+	public Student() { }
+	public Student(String name){this.name = name;}
+	public Student(String name, int kor, int eng, int mat){
+		this.name = name; 
+		this.kor = kor; 
+		this.eng = eng; 
+		this.mat = mat;
+	}
+	public int calcTot(){
+		this.clacTot = 
+	}
+		//System.out.println("총점 : "+calcTot);
+		
+	}
+
+//}
