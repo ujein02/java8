@@ -5,6 +5,8 @@ public class Student {
 	int kor;
 	int eng;
 	int mat;
+	int clacTot = 0;
+	int calcAvg = 0;
 	
 	
 	public Student() { }
