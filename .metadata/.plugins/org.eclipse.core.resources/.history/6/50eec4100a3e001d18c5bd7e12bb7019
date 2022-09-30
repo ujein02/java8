@@ -1,0 +1,20 @@
+package sec3;
+
+public class MichelinTire extends Tire{
+	public MichelinTire(String location, int maxRotation){
+		super(maxRotation, location);
+	}
+
+	@Override
+	public boolean roll() {
+		++accumulatedRotation;
+		if(accumulatedRotation<maxRotation){
+			System.out.println(location + "금호 타이어 수명 :"+(maxRotation-accumulatedRotation));
+			return true;
+		} else {
+			System.out.println("**** "+location+"금호타이어 펑크****");		}
+		return false;
+	}
+	
+
+}
