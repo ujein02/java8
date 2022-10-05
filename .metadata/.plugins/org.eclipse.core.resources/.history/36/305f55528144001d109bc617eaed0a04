@@ -1,0 +1,17 @@
+package sec1;
+
+public class ClassEx0 {
+
+	public static void main(String[] args) {
+		// 제네릭 1.5이상에서 쓸 수 있음
+		Generic<Student> s1 = new Generic<Student>();
+	}
+
+}
+
+class Generic<T> {
+	T a;
+}
+class Student {
+	General s1;
+}

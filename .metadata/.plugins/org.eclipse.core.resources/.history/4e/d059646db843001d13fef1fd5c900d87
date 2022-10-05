@@ -1,0 +1,12 @@
+package sec5;
+
+public class Ex {
+	public static void main(String[] args){
+		String strData1 = "200";
+		int intData1 = Integer.parseInt("200");
+		
+		int intData2 = 150;
+		String strData2 = String.valueOf(150);
+	}
+
+}
